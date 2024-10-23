@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 a{
     color:black;
     text-decoration: none;
+}
+
+a:hover{
+    color: tan;
+}
+
+#main-logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
