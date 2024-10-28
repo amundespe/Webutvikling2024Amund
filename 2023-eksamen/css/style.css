@@ -54,7 +54,13 @@ a:hover{
     color: black;
 }
 
-.grid-container{
+.subheading {
+    text-align: center; 
+    margin: 1rem auto;
+    width: 70%;
+}
+
+.flex-container{
     display: flex;
 }
 
