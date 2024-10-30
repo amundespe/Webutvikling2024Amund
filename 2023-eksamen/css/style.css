@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.flex-container{
+    display: flex;
+}
+
 a{
     color:black;
     text-decoration: none;
@@ -35,6 +39,11 @@ a:hover{
     text-decoration: underline; 
 }
 
+.contact {
+    background-color: gold;
+    padding: 10px 10px;
+}
+
 .banner {
     background-color: lightgray; 
     padding: 20px; 
@@ -60,15 +69,27 @@ a:hover{
     width: 70%;
 }
 
-.flex-container{
-    display: flex;
+.about{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.about a{
+    display: block;
+    padding: 10px;
+    background-color: lightgray;
+    margin: 2rem;
+}
+
+.services h2{
+    text-align: center;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
+    background-color: rgba(0, 0, 0, 0.829);
     padding: 20px;
     color: white;
 }
@@ -82,4 +103,9 @@ a:hover{
     flex-grow: 1;
     text-align: center;
     margin: 0;
+}
+
+.footer img {
+    background-color: whitesmoke;
+    border-radius: 50%;
 }
