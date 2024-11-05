@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,73 +7,74 @@
     <link rel="stylesheet" href="ikoner/css/fontawesome.css">
     <link rel="stylesheet" href="ikoner/css/brands.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Home</title>
+    <title itemprop="headline">Home</title>
 </head>
 <body>
     <div id="flex-container">
-        <header class="header">
+        <header class="header" itemscope itemtype="https://schema.org/WPHeader">
             <a href="index.html">
-                <img id="main-logo" src="img/logo.svg" alt="logo">
+                <img id="main-logo" src="img/logo.svg" alt="logo" itemprop="logo">
             </a>
-                <nav class="nav-menu">
-                <a href="index.html">Home</a>
-                <a href="products.html">Portfolio</a>
-                <a href="about.html">About</a>
-                <a class="contact" href="about.html">Contact</a>
+            <nav class="nav-menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <a href="index.html" itemprop="url">Home</a>
+                <a href="products.html" itemprop="url">Portfolio</a>
+                <a href="about.html" itemprop="url">About</a>
+                <a class="contact" href="about.html" itemprop="url">Contact</a>
             </nav>
         </header>
         <main>
-            <section class="banner">
-                <h1>Compeling headline</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                <a href="about.html">Read more about our services</a>
+            <section class="banner" itemscope itemtype="https://schema.org/CreativeWork">
+                <h1 itemprop="headline">Compelling headline</h1>
+                <p itemprop="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                <a href="about.html" itemprop="url">Read more about our services</a>
             </section>
 
-            <section class="subheading">
-                <h2>Engaging subheading. What can you help your visitors with</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            <section class="subheading" itemscope itemtype="https://schema.org/CreativeWork">
+                <h2 itemprop="headline">Engaging subheading. What can you help your visitors with</h2>
+                <p itemprop="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
             </section>
 
-            <section class="about">
-                <img src="https://picsum.photos/200/300?grayscale" alt="placeholder image">
-                <h2>About our company</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                <a href="about.html">Read more about us</a>
+            <section class="about" itemscope itemtype="https://schema.org/Organization">
+                <img src="https://picsum.photos/200/300?grayscale" alt="placeholder image" itemprop="image">
+                <h2 itemprop="name">About our company</h2>
+                <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                <a href="about.html" itemprop="url">Read more about us</a>
             </section>
 
-            <section class="services">
-                <h2>Our services</h2>
-                <nav class="services-menu">
+            <section class="services" itemscope itemtype="https://schema.org/Service">
+                <h2 itemprop="name">Our services</h2>
+                <nav class="services-menu" itemscope itemtype="https://schema.org/ItemList">
                     <ul>
-                        <li>
-                            <h4>Branding</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <li itemscope itemtype="https://schema.org/Offer">
+                            <h4 itemprop="itemOffered">Branding</h4>
+                            <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </li>
-                        <li>
-                            <h4>Design</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <li itemscope itemtype="https://schema.org/Offer">
+                            <h4 itemprop="itemOffered">Design</h4>
+                            <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </li>
-                        <li>
-                            <h4>Development</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <li itemscope itemtype="https://schema.org/Offer">
+                            <h4 itemprop="itemOffered">Development</h4>
+                            <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </li>
-                        <li>
-                            <h4>Support</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <li itemscope itemtype="https://schema.org/Offer">
+                            <h4 itemprop="itemOffered">Support</h4>
+                            <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </li>
                     </ul>
                 </nav>
+            </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" itemscope itemtype="https://schema.org/WPFooter">
             <a href="index.html">
-                <img id="main-logo" src="img/logo.svg" alt="logo">
+                <img id="main-logo" src="img/logo.svg" alt="logo" itemprop="logo">
             </a>
-            <p>Company copyright 2023</p>
-        <nav class="nav-menu">
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-        </nav>
+            <p>Company &copy; <span itemprop="copyrightYear">2023</span></p>
+            <nav class="nav-menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <a href="https://www.facebook.com" itemprop="url"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" itemprop="url"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" itemprop="url"><i class="fa-brands fa-linkedin"></i></a>
+            </nav>
         </footer>
     </div>
 </body>
